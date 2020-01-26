@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Add baidu tongji -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b150d8955dada51289c717fc938583d3";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- over -->
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title></title>
+  <style>
+  html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+  }
+  html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    font-family: 'Microsoft YaHei', 'Myriad Set Pro', 'Lucida Grande', 'Hiragino Sans GB', 'Helvetica', 'Arial', 'sans-serif';
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+    font-size: 26px;
+    line-height: 1em;
+	color: #ff0000;
+  }
+
+  img {
+    vertical-align: middle;
+    border: none;
+  }
+
+  input,
+  button,
+  select,
+  textarea {
+    outline: none;
+  }
+  .desc{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    margin-top: -0.2rem;
+    width: 100%;
+    line-height: 0.06rem;
+    font-size: 0.032rem;
+    text-align: center;
+  }
+  .desc span{
+    color: #ff8710;
+    font-size: 0.04rem;
+  }
+  .desc b {
+    color: #2727fd;
+  }
+  .desc b:hover {
+    color: #f60;
+    cursor: pointer;
+  }
+  .desc.pc{
+    margin-top: -250px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 28px;
+  }
+  .desc.pc span{
+    font-size: 40px;
+  }
+  .btn-dl{
+    position: fixed;
+    left: 50%;
+    margin-left: -0.1985rem;
+    top: 50%;
+    margin-top: 0.08rem;
+    width: 0.397rem;
+    height: 0.089rem;
+    line-height: 0.089rem;
+    background: #ff1010;
+    text-align: center;
+    color: #fff;
+    font-size: 0.036rem;
+    border-radius: 0.05rem;
+    display: none;
+  }
+  .twocode{
+    position: fixed;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -80px;
+    width: 300px;
+    height: 300px;
+    display: none;
+    background: url(download-min.png) no-repeat center/cover;
+  }
+  .twocode p {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  </style>
+
+  <script src="https://image.uc.cn/s/uae/g/0n/wuweixin/adtrack-jssdk-1.0.6.js"></script>
+
+  <script>
+  var fontSize = window.innerWidth / 0.75;
+  document.querySelector('html').style.fontSize = fontSize + 'px';
+  document.title = location.hostname;
+
+
+<!--  window.location.href =   -->
+
+
+
+	var ua = window.navigator.userAgent.toLowerCase();
+	var uad = navigator.userAgent;
+	if (ua.indexOf('ucbrowser') >= 0 && ua.indexOf('uws/') === -1) {
+  	baiduPush('userAgen', 'ucbrowser', 'gourl');
+    window.location.href = 'http://181ue.com/sq.html'; // 跳转地址
+	}  
+	if (uad.indexOf("Android") !== -1){
+		if (ua.indexOf("micromessenger") !== -1){
+		baiduPush('userAgen', 'ucbrowser', 'GoWX');
+		window.location.href = '/wx.html'; 
+		}
+	}
+	
+    function baiduPush(packega, action, label) {
+    _hmt.push(['_trackEvent', packega, action, label]);
+  }
+
+  
+  </script>
+
+
+
+  
+</head>
+<body>
+<ul id="desc"   class="desc">
+	<li><h1>紧急通知</h1><br><h2>本站仅支持<b id="ucweb" onclick="baiduPush('click','btn','ucweb')">UC浏览器</b>访问！</h2></li>
+</ul>
+	<div id="btn" class="btn-dl" >
+		<div id="btndl" onclick="baiduPush('click','btn','openuc')" >用UC浏览器打开</div>
+    </div>
+<div id="twocode" class="twocode"><p>扫码下载UC浏览器</p></div>
+
+<script>
+  // 下载地址
+  var downios = 'https://utp-dl.uc.cn/1_5m9bl'; // App Store下载
+  var downandroid = 'https://down2.uc.cn/ucbrowser/v2/down.php?pub=gongyp@outsizeothersAR&id=145&model=androidv8&brand=android&fr=index'; // 中文下载包地址
+  var wechatandroid = 'https://down2.uc.cn/ucbrowser/v2/down.php?pub=gongyp@outsizeweixinqqAR&id=145&model=androidv8&brand=android&fr=index'; // 应用宝下载地址
+  var wechatios = 'https://utp-dl.uc.cn/1_5m9bl';
+  var ucweb = 'http://www.uc.cn';
+  var hosturl = window.location.hostname;
+  var ADTRACKJSSDK = window.ADTRACKJSSDK;
+  var adtrack = new ADTRACKJSSDK();
+
+  window.onload=function() {
+    var ua = window.navigator.userAgent.toLowerCase();
+    var $ucweb = document.getElementById('ucweb');
+    $ucweb.onclick = function() {
+//      window.location.href = ucweb;
+      callApp()
+    }
+
+    if (isPC()) {
+      var $desc = document.getElementById('desc');
+      var $twocode = document.getElementById('twocode');
+      $desc.setAttribute('class', 'desc pc');
+      $desc.style.display = 'block';
+      $twocode.style.display = 'block';
+      return;
+    }
+
+    document.getElementById('btn').style.display = 'block';
+    document.getElementById('btn').onclick = function() {
+      gotoDown();
+    };
+
+    if (!isPC()) {
+		if (!isIOS()) {
+			setTimeout(timeoutdown, 10);
+			setTimeout(timeoutdown, 5000);
+		} else {
+			setTimeout(timeoutdown, 2000);
+		};
+	};
+  };
+  
+  function timeoutdown() {
+    baiduPush('event', 'CallApp & download', 'setTimeout');
+    gotoDown();
+  }
+
+  
+  function isIOS() {
+    var ua = window.navigator.userAgent.toLowerCase();
+    return /\(i[^;]+;( U;)? CPU.+Mac OS X/i.test(ua);
+  }
+
+  function isPC() {
+    var userAgentInfo = window.navigator.userAgent;
+    var Agents = new Array('Android', 'iPhone', 'SymbianOS', 'Windows Phone', 'iPad', 'iPod');
+    var flag = true;
+    for (var v = 0; v < Agents.length; v++) {
+      if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+    }
+    return flag;
+  }
+
+  function gotoDown() {
+    var ua = window.navigator.userAgent.toLowerCase();
+    if (ua.indexOf('micromessenger') >= 0) {
+      call();
+    } else {
+      callApp();
+    }
+  }
+
+  function callApp() {
+    if (isIOS()) {
+	  baiduPush('event', 'CallApp & download', 'iOS');
+      adtrack.sdkClick({
+        pkgName: 'com.ucweb.iphone.lowversion',
+        ucLink: 'uclink://www.uc.cn/f11f7cb5d16fa0969d670c1eccc6053d?action=open_url&src_pkg=bingshan&src_ch=gongyp@outsizeothersIOS&url=' + encodeURIComponent(hosturl),
+        adChannel: 'gongyp@outsizeothersIOS',
+        adBid: '997',
+        appID: 'f11f7cb5d16fa0969d670c1eccc6053d',
+        downLink: downios,
+        cid: '',
+      }
+	  );
+    } else {
+	  baiduPush('event', 'CallApp & download', 'android');
+      adtrack.sdkClick({
+        pkgName: 'com.UCMobile',
+        ucLink: 'uclink://www.uc.cn/cc77796ca7c25dff9607d31b29effc07?action=open_url&src_pkg=bingshan&src_ch=gongyp@outsizeothersAR&url=' + encodeURIComponent(hosturl),
+        adChannel: 'gongyp@outsizeothersAR',
+        adBid: '800',
+        appID: 'cc77796ca7c25dff9607d31b29effc07',
+        downLink: downandroid,
+        cid: ''
+      }
+	  );
+    }
+  }
+
+   /**
+   * [微信调起UC]
+   */
+    function call() {
+      if (isIOS()) {
+	    baiduPush('event', 'CallApp & download', 'Wechat iOS');
+        adtrack.sdkClick({
+          pkgName: 'com.ucweb.iphone.lowversion',
+          ucLink: 'uclink://www.uc.cn/f11f7cb5d16fa0969d670c1eccc6053d?action=open_url&src_pkg=bingshan&src_ch=gongyp@outsizeweixinqqIOS&url=' + encodeURIComponent(hosturl),
+          adChannel: 'gongyp@outsizeweixinqqIOS',
+          adBid: '997',
+          appID: 'f11f7cb5d16fa0969d670c1eccc6053d',
+          downLink: wechatios,
+          cid: '',
+        });
+      } else {
+	    baiduPush('event', 'CallApp & download', 'Wechat Android');
+        adtrack.sdkClick({
+          pkgName: 'com.UCMobile',
+          ucLink: 'uclink://www.uc.cn/cc77796ca7c25dff9607d31b29effc07?action=open_url&src_pkg=bingshan&src_ch=gongyp@outsizeweixinqqAR&url=' + encodeURIComponent(hosturl),
+          adChannel: 'gongyp@outsizeweixinqqAR',
+          adBid: '800',
+          appID: 'cc77796ca7c25dff9607d31b29effc07',
+          downLink: wechatandroid,
+          cid: ''
+        });		
+      }
+    }
+	
+	
+  // baidu打点使用
+  function baiduPush(category, action, label) {
+    _hmt.push(['_trackEvent', category, action, label]);
+  }
+</script>
+
+</body>
+</html>
+

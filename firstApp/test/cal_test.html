@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.common.dev.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+<div class="containoper-fluid">
+
+
+    <div class="row">
+        <div class="col-2">
+            <div class="">
+                <h2 class="">数量</h2>
+
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="">
+                <h2 class="">单价</h2>
+
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="">
+                <h2 class="">价格</h2>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="input_item">
+
+        <div class="" v-for="item,i in list">
+            <compa :ref="item"></compa>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+
+
+        <div class="col-3">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon1">总数量</button>
+                </div>
+                <input type="text" class="form-control" disabled :value="total_amount" placeholder=""
+                       aria-label="Example text with button addon"
+                       aria-describedby="button-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon1">总金额</button>
+                </div>
+                <input type="text" class="form-control" disabled :value="total_price" placeholder=""
+                       aria-label="Example text with button addon"
+                       aria-describedby="button-addon1">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<template id="cal_part">
+    <!--   注意template不可以为复数-->
+    <!--   此外必须要有一个根目录-->
+
+    <div class="row">
+        <div class="col-2">
+            <div class="input-group mb-3">
+
+                <input name="amount" autofocus v-model="msg1" type="text" class="form-control" placeholder=""
+                       aria-label="Example text with button addon"
+                       aria-describedby="button-addon1">
+            </div>
+        </div>
+
+        <div class="col-2">
+            <div class="input-group mb-3">
+
+                <input v-model="msg2" type="text" class="form-control" placeholder=""
+                       aria-label="Example text with button addon"
+                       aria-describedby="button-addon1">
+            </div>
+        </div>
+
+        <div class="col-2">
+            <div class="input-group mb-3">
+
+                <input name="outcome" v-model="msg3" type="text" disabled class="form-control" placeholder=""
+                       aria-label="Example text with button addon"
+                       aria-describedby="button-addon1">
+            </div>
+        </div>
+
+
+    </div>
+
+</template>
+
+
+</body>
+<script>
+    var vm1 = new Vue({
+        el: ".container-fluid",
+        data: {
+            list: ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i'],
+            total_amount: "",
+            total_price: ""
+
+
+        },
+        methods: {
+            do_() {
+
+
+                var total_price = 0;
+                var total = 0;
+                for (var item of Object.values(this.$refs)) {
+                    total += Number(item[0].msg1);
+                    total_price += Number(item[0].msg3);
+                }
+                this.total_amount = total;
+                this.total_price = total_price;
+
+            }
+
+
+        }, computed: {
+
+            total_amount: function () {
+                var total = 0;
+                for (var item of Object.values(this.$refs)) {
+                    console.log(item[0].msg1);
+                    total += Number(item[0].msg1);
+                }
+                return total;
+            }
+
+
+        }, components: {
+            'compa': {
+                props: ["parenttag"],
+                template: "#cal_part",
+                data: function () {
+                    return {
+                        msg1: "",
+                        msg2: "",
+
+                    }
+                }, computed: {
+                    msg3: function () {
+                        return this.msg1 * this.msg2;
+
+                    }
+                }
+
+
+            },
+        },//如何自动执行函数？当页面加载的时候
+        created() {
+            setInterval(() => {
+                this.do_();
+            }, 50);
+
+
+        }, mounted() {
+        },
+    })
+</script>
+</html>

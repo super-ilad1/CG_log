@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Not Found</title>
+<link rel="stylesheet" type="text/css" href="/ecss/s1_404.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><script type="text/javascript" src="/csss/jq.js"></script></head>
+<body>
+<div class="ts1"><h1>404 Not Found</h1></div>
+<div class="ts2">
+    <div class="ts2_t">
+        <p>The requested URL was not found on this server.</p>
+        <p>您访问的资源不存在或已被删除<span style="color: purple">...</span></p>
+    </div>
+</div>
+</body>
+</html>
+

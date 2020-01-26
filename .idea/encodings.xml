@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/firstApp/test/extract_from_divText.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/firstApp/test/generate_portrait/change_sql_portrait.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/firstApp/test/generate_portrait/test.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/firstApp/test/generate_portrait/test_speed_mysql.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/firstApp/test/term_json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/firstApp/test/turn_term_to_json.py" charset="UTF-8" />
+  </component>
+</project>

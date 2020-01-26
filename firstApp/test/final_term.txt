@@ -1,0 +1,461 @@
+New|||新建
+Open|||打开
+Merge|||合併
+Revert to Saved|||恢复
+Close|||关闭
+Close All|||全部关闭
+Save|||保存
+Save as|||另存为
+Save incremental|||增量保存
+Save All|||全部保存
+Save Project with Asserts|||保存工程
+Export|||导出
+Recent Files|||最近档
+Quit|||退出
+Undo|||撤销
+Redo|||重做
+Undo|||撤销
+Cut|||剪切
+Paste|||粘贴
+Delete|||删除
+Select All|||全部选择
+Deselect All|||取消全选
+Select Children|||选择子级
+Project Setting|||工程设置
+Project Info|||文档信息
+Scale Project|||缩放工程
+Preference|||设置
+Object|||对象
+Spline|||样条
+Modeling|||造型
+Deformer|||变形器
+Environment|||场景
+Physical Sky|||物理天空
+Camera|||摄像机
+Light|||灯光
+Material|||材质
+Tag|||标籤
+Sound|||声音
+Null|||空白
+Empty Polygon|||空白多边形
+Cone|||圆锥
+Cube|||立方体
+Cylinder|||圆柱
+Disc|||圆盘
+Plane|||平面
+Polygon|||多边形
+Sphere|||球体
+Torus|||圆环
+Capsule|||胶囊
+Oil Tank|||油桶
+Tube|||管道
+Pyramid|||角锥
+Platonic|||宝石
+Figure|||人偶
+Landscape|||地形
+Relief|||地貌
+Spline|||样条
+Empty Spline|||空白样条
+Freehand|||自由样条
+Bezier|||贝塞尔
+B-Spline B-|||样条
+Liner|||线性
+Cubic|||立方
+Akima|||阿基玛
+Arc|||圆弧
+Circle|||圆环
+Helix|||螺旋
+n-Side|||多边
+Star|||星形
+Text|||文本
+Vectorizer|||向量化
+4-Side|||四边
+Cissoid|||蔓叶类曲线
+Cogwheel|||齿轮
+Formula|||公式
+Flower|||花瓣
+Profile|||轮廓
+Hyper NURBS|||平滑细分
+Extrude NURBS|||挤压
+Lathe NURBS|||旋转
+Loft NURBS|||放样
+Sweep NURBS|||扫描
+Bezier NURBS|||贝塞尔
+Array|||阵列
+Atom Array|||晶格
+Spline Mask|||样条布林
+Connect|||连接
+Instance|||实例
+Metaball|||融球
+Symmetry|||对称
+Construction Plane|||构造平面
+Deformer|||变形器
+Bend|||扭曲
+Bulge|||膨胀
+Shear|||斜切
+Taper|||锥化
+Twist|||螺旋
+Mesh|||网格
+Squash&Stretch|||挤压
+Melt|||融球
+Explosion|||爆炸
+Explosion FX|||爆炸
+Shatter|||破碎
+Correction|||修正
+Jiggle|||抖动
+Morph|||变形
+Shrink Wrap|||收缩包裹
+Spherify|||球化
+Surface|||表面
+Wrap|||包裹
+Spline|||样条
+Spline Rail|||导轨
+Spline Wrap|||样条约束
+Camera|||摄像机
+Collision|||碰撞
+Displacer|||置换
+Formula|||公式
+Wind|||风力
+Polygon Reduction|||减面
+Smoothing|||平滑
+Environment|||场景
+Floor|||地面
+Sky|||天空
+Environment|||环境
+Foreground|||前景
+Background|||背景
+Stage|||舞台
+Physical Sky|||物理天空
+Physical Sky|||物理天空
+Cloud Tool|||云绘製工具
+Cloud Group|||云组
+Cloud|||云
+Connect Clouds|||连接云
+Camera|||摄像机
+Target Camera|||目标摄像机
+Stereo Camera|||立体摄像机
+Light|||灯光
+Spot Light|||聚光灯
+Target Light|||目标聚光灯
+Area Light|||区域广
+IES Light IES|||灯
+Infinite Light|||远光灯
+Sun Light|||日光
+Material|||材质
+Banji|||玻璃
+Banzi|||木材
+Cheen|||有机物
+CineMan Material CineMan|||材质
+Fog|||烟雾
+Hair Material|||毛髮材质
+Mabel|||大理石
+Nukei|||复合物
+Sketch Material|||素描材质
+Terrain|||地形
+Loudspeaker|||扬声器
+Microphone|||麦克风
+Stereo Microphone|||身历声麦克风
+Stereo|||双声道
+Selection Filter|||选择过滤
+Live Selection|||即时选择
+Rectangle Selection|||框选
+Lasso Selection|||套索选择
+Polygon Selection|||多边形选择
+Loop Selection|||迴圈选择
+Ring Selection|||环状选择
+Outline Selection|||轮廓选择
+Fill Selection|||填充选择
+Path Selection|||路径选择
+Phong Break Selection|||选择平滑著色断开
+Select All|||全选
+Deselect All|||取消选择
+Invert|||反选
+Select Connected|||选择连接
+Grow Selection|||扩展选区
+Shrink Selection|||收缩选区
+Hide Selected|||隐藏选择
+Hide Unselected|||隐藏未选择
+Unhide All|||全部显示
+Invert Visibility|||反转显示
+Convert Selection|||转换选择模式
+Set Selection|||设置选集
+Set Vertex Weight|||设置顶点权重
+Selection filter|||选择过滤
+Selector|||选择器
+Create Selection|||创建选集对象
+All|||全部
+None|||无
+Null|||空白
+Polygon|||多边形
+Spline|||样条
+Generator|||生成器
+HyperNURBS|||平滑细分
+Deformer|||变形器
+Camera|||摄像机
+Light|||灯光
+Environment|||环境
+Particle|||粒子
+Other|||其他
+Joint|||关节
+Naming Tool|||命名工具
+Measure&Construction|||测量和移动
+Lighing Tool|||照明工具
+Combine Project|||整合工程
+Arrange Objects|||环绕对象
+Doodle|||草绘
+Virtual Walkthrough|||漫游
+3Dconnexion 3D|||连接
+Coordinates|||座标
+Modes|||模式
+Execution|||执行
+Move|||移动
+Scale|||缩放
+Rotate|||旋转
+Arrange Objects|||环绕对象
+Arrange|||排列
+Center|||居中
+Duplicate|||複製
+Transfer PSR|||转移
+Randomize|||随机化
+Doodle|||草绘
+Doodle Paint|||草绘描绘
+Doodle Eraser|||草绘擦除
+Add Doodle Frame|||添加草绘帧
+Duplicate Doodle Frame|||複製草绘帧
+Clear Doodle Frame|||清除草绘帧
+Remove Doodle Frame|||移除草绘帧
+Set Doodle Viewport|||设置草绘视窗
+Virtual Walkthrough|||漫游
+Virtual Walkthrough|||虚拟漫游
+Collision Orbit|||碰撞轨道
+3D Mouse Dialog 3D Mouse|||对话方块
+Toggle On/Off|||切换开关
+Switch to Navigate|||切换到导航模式
+Switch to Fly|||切换到飞行模式
+Switch to Move|||切换到移动模式
+Coordinates|||座标
+Coordinates System|||坐标系统
+Freeze Transformation|||冻结位移
+Unfreeze Transformation|||解冻位移
+Camera|||摄像机
+Model|||模型
+Object|||对象
+Points|||点
+Edges|||边
+Polygons|||多边形
+Texture|||纹理
+Texture Axis|||纹理轴
+Animation|||动画
+UV Points UV|||点
+UV Polygons UV|||多边形
+3D Painting Mode 3D|||纹理绘製模型
+Enable Axis|||对象轴
+Execution|||执行
+Use Animation|||使用动画
+Use Expressions|||使用运算式
+Use Generators|||使用生成器
+Use Deformers|||使用变形器
+Use Motion System|||使用运动剪辑系统
+Use IK|||使用
+Use Constraints|||使用约束
+Use Symmetry|||使用对称
+Use Hair|||使用毛髮
+Mesh|||网格
+Conversion|||转换
+Commands|||命令
+Create Tools|||创建工具
+Transform Tools|||移动工具
+Spline|||梯条
+Normals|||法线
+Axis Center|||重置轴心
+Conversion|||转换
+Make Editable|||转为可编辑物件
+Commands|||命令
+Array|||阵列
+Clone|||克隆
+Disconnect|||断开连接
+Split|||分裂
+Collapse|||坍塌
+Connect Points/Edges|||连接点
+Melt|||触解
+Dissolve|||消除
+Subdivide|||细分
+Triangulate|||三角化
+Untriangulate|||反三角化
+Set Point Value|||设置点值
+Spin Edge|||旋转边
+Edge to Spline|||提取样条
+Change Point Order|||改变点顺序
+Optimize|||优化
+Reset Scale|||复位缩放
+Create Tools|||创建工具
+Create Point|||创建点
+Create Polygon|||创建多边形
+Edge Cut|||边分割
+Knife|||切片
+Bridge|||桥接
+Weld|||焊接
+Stitch and Sew|||缝合
+Close Polygon Hole|||封闭多边形孔洞
+Bevel|||倒角
+Extrude|||挤压
+Extrude Inner|||内部挤压
+Matrix Extrude|||矩阵挤压
+Smooth Shift|||偏移
+Transform Tools|||移动工具
+Brush|||笔刷
+Iron|||熨烫
+Magnet|||磁铁
+Mirror|||镜像
+Slide|||滑动
+Normal Move|||沿法线移动
+Normal Scale|||沿法线缩放
+Normal Rotate|||沿法线旋转
+Weight HyperNURBS|||平滑细分权重
+Spline|||梯条
+Hard Interpolation|||刚性插值
+Soft Interpolation|||柔性插值
+Equal Tangent Length|||相等切线长度
+Equal Tangent Direction|||相等切线方向
+Join Segment|||合併分段
+Break Segment|||断开分段
+Explode Segments|||分裂分段
+Set First Point|||设置起点
+Reverse Sequence|||反转序列
+Move Down Sequence|||下移序列
+Move Up Sequence|||上移序列
+Chamfer|||倒角
+Create Outline|||创建轮廓
+Cross-Section|||截面
+Line Up|||排齐
+Project|||投射梯条
+Round|||平滑
+Normals|||法线
+Align Normals|||对齐法线
+Reverse Normals|||反转法线
+Break Phong Shading|||断开平滑著色
+Unbreak Phong Shading|||恢复平滑著色
+Select Broken Phong Edges|||选择平滑著色
+Axis Center|||重置轴心
+Axis Center|||轴对齐
+Center Axis to|||轴居中到对象
+Center Object to|||对象居中到轴
+Center Parent to|||使父级对齐
+Center to Parent|||对齐到父级
+View Center|||视图居中
+Animate|||动画
+Record|||记录
+Record Active Objects|||记录活动物件
+Autokeying|||自动关键帧
+Keyframe|||关键帧
+Play Mode|||播放模式
+Frame Rate|||帧频
+Play Forward|||向前播放
+Play Backwards|||向后播放
+Stop|||停止
+Play Sound|||播放声音
+Goto Start|||转到开始
+Goto End|||转到结束
+Goto Frame|||转到帧
+Goto Next Fame|||转到下一帧
+Goto Previous Frame|||转到上一帧
+Goto Next Key|||转到下一关键帧
+Goto Previous Key|||转到上一关键帧
+Add Relative Animation Layer|||添加相对动画层
+Add Absolute Animation Layer|||添加绝对动画层
+Add Motion Clip|||添加运动剪辑片段
+Add Empty Motion Layer|||添加空白运动剪辑层
+Pivot Object|||枢轴对象
+Record|||记录
+Position|||位置
+Scale|||缩放
+Rotation|||旋转
+Point Level Animation|||点级别动画
+Parameter|||参数
+Link XYZ Sub-channels|||连接
+Keyfame |||关键帧
+Active Object|||启动物件
+Restrict Edit Selection|||限制编辑器选择
+Play Mode|||播放模式
+Preview Range|||预览范围
+Simple|||简单
+Cycle|||迴圈
+Ping-Pong|||往复
+Frame Rate|||帧频
+All Frames|||全部帧
+Project|||方案设置
+Simulate|||模拟
+Cloth|||布料
+Dynamic|||动力学
+Particles|||粒子
+Hair Objects|||毛髮对象
+Hair Mode|||毛髮模式
+Hair Edit|||毛髮编辑
+Hair Selection|||毛髮选择
+Hair Tools|||毛髮工具
+Hair Option|||毛髮选项
+Cloth|||布料
+Cloth NURBS|||布料
+Cloth Cache Tool|||布料缓存工具
+Dynamics|||动力学
+Connector|||连接器
+Spring|||弹簧
+Force|||力
+Motor|||驱动器
+Particles|||粒子
+Emitter|||发射器
+Attractor|||引力
+Deflector|||反弹
+Destruction|||破坏
+Friction|||摩擦
+Gravity|||重力
+Rotation|||旋转
+Turbulence|||湍流
+Wind|||风力
+Bake Particles|||烘培粒子
+Particle Geometry|||粒子几何体
+TP ParticleDraw|||粒子绘製
+Hair Object|||毛髮对象
+Add Hair|||添加毛髮
+Feather Object|||羽毛对象
+Fur|||绒毛
+Tips|||发梢
+Roots|||发根
+Points|||点
+Guides|||引导线
+Vertices|||顶点
+Next Vertex|||下一顶点
+Previous Vertex|||上一顶点
+Hair Edit|||毛髮编辑
+Cut Guides|||剪切引导线
+Copy Guides|||複製引导线
+Paste Guides|||粘贴引导线
+Paste to New|||粘贴为新建
+Delete Guides|||删除引导线
+Convert to Spline|||毛髮转为样条
+Convert from Spline|||样条转为毛髮
+Connect Guides|||连接引导线
+Split Guides|||分离引导线
+Even Segments|||平滑分段
+Set As Dynamics|||设为动力学状态
+Hairs to Guides|||毛髮转为引导线
+Unroot Guides|||根除引导线
+Hair Selection|||毛髮选择
+Live Selection|||即时选择
+Rectangle Selection|||框选
+Polygon Selection|||多边形选择
+Lasso Selection|||套索选择
+Select Hidden|||选择隐藏
+Selection|||选集
+Convert Selected|||转换选取
+Select All|||全部选择
+Deselect All|||取消选择
+Invert|||反向选择
+Grow Selection|||扩展选取
+Hide|||隐藏
+Hide Locked|||隐藏锁定
+Show All|||显示全部
+Lock Selected|||锁定选取
+Unlock All|||全部解锁
+Unlock Selected|||解锁选取
+Set Selection|||设置选集
