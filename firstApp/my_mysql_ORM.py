@@ -1,19 +1,28 @@
 
 # -*- coding: utf-8 -*-
 import mysql.connector
-
+import socket
 
 from django.db import models
 # Create your models here.
 class doMysql():
     def __init__(self):
 
-        self.mydb = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            passwd="",
-            database="cg_log_web"
-        )
+        if not "-" in  socket.gethostname():
+            self.mydb = mysql.connector.connect(
+                host="localhost",
+                user="root",
+                passwd="Xhc654477358",
+                database="cg_log_web"
+            )
+        else:
+            self.mydb = mysql.connector.connect(
+                host="localhost",
+                user="root",
+                passwd="",
+                database="cg_log_web"
+            )
+
 
         self.mycursor = self.mydb.cursor()
         print('start to connect')
