@@ -1,46 +1,34 @@
-# -*- coding: utf-8 -*-
-import mysql.connector
-
-
 from django.db import models
-# Create your models here.
-class doMysql():
-    def __init__(self):
-
-        self.mydb = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            passwd="",
-            database="scrapy_web"
-        )
-
-        self.mycursor = self.mydb.cursor()
-        print('start to connect')
-
-    def DoMysql(self, program, val=None, list=False, Many=False, lastrowid=False):
-        '''program代表的是mysql语句，val代表的是增删查改的参数，list代表的是
-                         select返回的对象全部变成列表形式而不是包裹着元组的那种形式
-                         Many代表的是插入多个'''
-
-        if program[0:6] == 'select':
-            self.mycursor.execute(program,val)
-
-            myresult = self.mycursor.fetchall()
-
-            if list == True:
-                myresult = [n for i in myresult for n in i]
-
-            return myresult
-        elif Many == True:
-
-            self.mycursor.executemany(program, val)
-            self.mydb.commit()
-        else:
-            self.mycursor.execute(program, val)
-            self.mydb.commit()
-            if lastrowid:
-                return self.mycursor.lastrowid
 
 
-if __name__ == '__main__':
-    a = doMysql()
+class c4d_url(models.Model):
+    #在django中会默认生成可以不用写这行
+
+    post_ID=models.AutoField(primary_key=True,null=False)
+    URL=models.TextField()
+    title=models.CharField(max_length=1000)
+    replies=models.IntegerField()
+    if_scrapied=models.CharField(max_length=30,null=True)
+    trans_title=models.CharField(max_length=1000,null=True)
+    # 修改数据库名字
+    class Meta():
+        db_table='C4D_url'
+
+
+class c4d_content(models.Model):
+
+    content_ID=models.AutoField(primary_key=True,null=False)
+    content=models.TextField()
+    author=models.CharField(max_length=45,null=True)
+    date=models.CharField(max_length=80,null=True)
+    from_url=models.CharField(max_length=150,null=True)
+    Unit=models.IntegerField(null=True)
+    trans_content=models.TextField(null=True)
+    upvode=models.IntegerField(null=True)
+    author_alias=models.CharField(max_length=45,null=True)
+    portrait=models.CharField(max_length=200,null=True)
+    post_ID=models.IntegerField(null=True)
+
+    # 修改数据库名字
+    class Meta():
+        db_table='c4d_content'

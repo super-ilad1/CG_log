@@ -1,130 +1,8 @@
-{% load process %}
-<!doctype html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/abc/image/brand_icon.png">
-    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
-    <title >CG日志 {{ title|process}}</title>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.common.dev.js"></script>
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- Custom styles for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <link href="/abc/blog.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    {#    font#}
-
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-
-    {#    brand font#}
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
-{#    <script src="https://kit.fontawesome.com/743e100922.js" crossorigin="anonymous"></script>#}
-  <link href="/abc/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
-
-</head>
-{#note style编辑处 #}
-<style>
-.logs_button{
-color: #007bff
-}
-.logs_button:hover{
-    color: #ffffff;
-}
-    .btn-outline-custom {
-        color: #78b7ff;
-        border-color: #78b7ff;
-    }
-
-    .badge-primary {
-        color: #fff;
-        background-color: #addcff;
-    }
-
-    .masthead {
-        position: sticky;
-        top: 0;
-    }
-
-    {#.navbar {#}
-    {#    height: 70px;#}
-
-
-
-
-    .brandfont {
-        font-family: 'ZCOOL XiaoWei', serif;
-        font-size: 25px !important;
-        color: #0091ec !important
-    }
-
-    .rightsidebar:hover {
-
-        font-weight: bold;
-    }
-
-
-</style>
-<body class="bg-light" style="overflow-x:hidden ">
+{% include "component/head_tag.html" %}
 
 {#note navbar处#}
 
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light  border-top   masthead shadow-sm">
-    {#    <div class="navbarborder">#}
-    {##}
-    {#    </div>#}
-
-    <a class="navbar-brand brandfont" href="/logs">
-        <img class="mr-2" src="/abc/image/brand_icon.png" width="20" height="20" style="top:-10px"
-             class="d-inline-block align-top"
-             alt=""><span style="font-family: 'Gelasio', serif;">CG</span>日志</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto ">
-{#            <li class="nav-item active">#}
-{#                <a class="nav-link" href="#">Tutorials <span class="sr-only">(current)</span></a>#}
-{#            </li>#}
-{#            <li class="nav-item">#}
-{#                <a class="nav-link" href="#">Link</a>#}
-{#            </li>#}
-{#            <li class="nav-item dropdown">#}
-{#                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"#}
-{#                   data-toggle="dropdown"#}
-{#                   aria-haspopup="true" aria-expanded="false">#}
-{#                    Dropdown#}
-{#                </a>#}
-{#                <div class="dropdown-menu" aria-labelledby="navbarDropdown">#}
-{#                    <a class="dropdown-item" href="#">Action</a>#}
-{#                    <a class="dropdown-item" href="#">Another action</a>#}
-{#                    <div class="dropdown-divider"></div>#}
-{#                    <a class="dropdown-item" href="#">Something else here</a>#}
-{#                </div>#}
-{#            </li>#}
-{#            <li class="nav-item">#}
-{#                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>#}
-{#            </li>#}
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <a href="\logs"  class="btn btn-outline-primary my-2 my-sm-0 logs_button">日志大全</a>
-        </form>
-    </div>
-
-</nav>
+{% include "component/header.html" %}
 
 <div class="row mb-2">
     <div class="col-md-6">
@@ -241,24 +119,6 @@ color: #007bff
                 </ol>
             </div>
 
-{#            <div class="">#}
-{#                <h4 class="font-bold">Tutorial</h4>#}
-{#                <ol class="list-unstyled mb-0 ">#}
-{#                    <li><a href="#" class="text-dark text-decoration-none  rightsidebar">March 2014</a></li>#}
-{#                    <li><a href="#" class="text-dark text-decoration-none rightsidebar">February 2014</a></li>#}
-{#                    <li><a href="#" class="text-dark text-decoration-none rightsidebar">January 2014</a></li>#}
-{#                    <li><a href="#" class="text-dark text-decoration-none rightsidebar">December 2013</a></li>#}
-{#                    <li><a href="#" class="text-dark text-decoration-none rightsidebar">November 2013</a></li>#}
-{#                    <li><a href="#" class="text-dark text-decoration-none rightsidebar">October 2013</a></li>#}
-{#                    <li><a href="#" class="text-dark text-decoration-none rightsidebar">September 2013</a></li>#}
-{#                    <li><a href="#" class="text-dark text-decoration-none rightsidebar">August 2013</a></li>#}
-{#                    <li><a href="#" class="text-dark text-decoration-none rightsidebar">July 2013</a></li>#}
-{#                    <li><a href="#" class="text-dark text-decoration-none rightsidebar">June 2013</a></li>#}
-{#                    <li><a href="#" class="text-dark text-decoration-none rightsidebar">May 2013</a></li>#}
-{#                    <li><a href="#" class="text-dark text-decoration-none rightsidebar">April 2013</a></li>#}
-{#                </ol>#}
-{#            </div>#}
-
         </aside><!-- /.blog-sidebar -->
 
     </div><!-- /.row -->
@@ -310,19 +170,7 @@ color: #007bff
     );
 
 </script>
-<script>
-    {#var vm2=new Vue({#}
-    {#        el:"head",#}
-    {#        data:{#}
-    {#           title: {{ title|safe }},#}
-    {#        },#}
-    {#        methods: {#}
-    {#            function() {#}
-    {#            //    do something#}
-    {#            }#}
-    {#        }#}
-    {#    })#}
-</script>
+
 
 {#显示拖行进度#}
 <script>
