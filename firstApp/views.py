@@ -12,7 +12,7 @@ from django.urls import reverse
 from django.views import View
 import re
 
-sys.path.append(r"D:\PycharmProject\CG_log_web\firstApp")
+# sys.path.append(r"D:\PycharmProject\CG_log_web\firstApp")
 # 包的根目录
 from my_mysql_ORM import *
 
