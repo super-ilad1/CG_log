@@ -11,8 +11,12 @@ import random
 from django.urls import reverse
 from django.views import View
 import re
+import socket
 
-# sys.path.append(r"D:\PycharmProject\CG_log_web\firstApp")
+if not "-" in  socket.gethostname()[6:]:
+    sys.path.append(r"D:\PycharmProject\CG_log_web\firstApp")
+else:
+    sys.path.append(r"/home/cg_log/CG_log/firstApp")
 # 包的根目录
 from my_mysql_ORM import *
 
