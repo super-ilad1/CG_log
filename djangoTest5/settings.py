@@ -86,7 +86,7 @@ if not "-" in  socket.gethostname()[6:]:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',  # 数据库引擎
-            'NAME': 'CG_log_web',  # 数据库名称
+            'NAME': 'cg_log_web',  # 数据库名称
             'USER': 'root',  # 链接数据库的用户名
             'PASSWORD': 'Xhc654477358',  # 链接数据库的密码
             'HOST': '127.0.0.1',  # mysql服务器的域名和ip地址
