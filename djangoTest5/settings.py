@@ -24,7 +24,7 @@ SECRET_KEY = '+q*rc^iuzoa(zfymt(yp^^zp-89=kk(r^8*yr68b0qhcjbf&64'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-if not "-" in  socket.gethostname()[6:]:
+if not "-" in  socket.gethostname():
     DEBUG = False
 else:
     DEBUG=True
@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'djangoTest5.wsgi.application'
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 
-if not "-" in  socket.gethostname()[6:]:
+if not "-" in  socket.gethostname():
 
     DATABASES = {
         'default': {
@@ -149,7 +149,7 @@ STATICFILES_DIRS = [
 ]
 
 
-if not "-" in  socket.gethostname()[6:]:
+if not "-" in  socket.gethostname():
     SATTIC_ROOT=os.path.join(BASE_DIR, "static")
 
 

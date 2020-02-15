@@ -13,7 +13,7 @@ from django.views import View
 import re
 import socket
 
-if not "-" in  socket.gethostname()[6:]:
+if not "-" in  socket.gethostname():
     sys.path.append(r"/home/cg_log/CG_log/firstApp")
 
 else:
