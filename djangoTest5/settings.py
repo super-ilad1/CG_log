@@ -80,16 +80,33 @@ WSGI_APPLICATION = 'djangoTest5.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',  # 数据库引擎
-        'NAME': 'CG_log_web',  # 数据库名称
-        'USER': 'root',  # 链接数据库的用户名
-        'PASSWORD': '',  # 链接数据库的密码
-        'HOST': '127.0.0.1',  # mysql服务器的域名和ip地址
-        'PORT': '3306',  # mysql的一个端口号,默认是3306
+
+if not "-" in  socket.gethostname()[6:]:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',  # 数据库引擎
+            'NAME': 'CG_log_web',  # 数据库名称
+            'USER': 'root',  # 链接数据库的用户名
+            'PASSWORD': 'Xhc654477358',  # 链接数据库的密码
+            'HOST': '127.0.0.1',  # mysql服务器的域名和ip地址
+            'PORT': '3306',  # mysql的一个端口号,默认是3306
+        }
     }
-}
+
+else:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',  # 数据库引擎
+            'NAME': 'CG_log_web',  # 数据库名称
+            'USER': 'root',  # 链接数据库的用户名
+            'PASSWORD': '',  # 链接数据库的密码
+            'HOST': '127.0.0.1',  # mysql服务器的域名和ip地址
+            'PORT': '3306',  # mysql的一个端口号,默认是3306
+        }
+    }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
