@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="/abc/image/brand_icon.png">
+    <link rel="icon" href="/static/image/brand_icon.png">
     <meta http-equiv=Content-Type content="text/html; charset=utf-8">
-    <title >CG日志 {{ title|process}}</title>
+    <title>CG日志 {{ title }}</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.common.dev.js"></script>
     <!-- Bootstrap core CSS -->
@@ -19,9 +19,9 @@
 
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <link href="/abc/blog.css" rel="stylesheet">
+    <link href="/static/blog.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     {#    font#}
 
@@ -30,18 +30,20 @@
     {#    brand font#}
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
-{#    <script src="https://kit.fontawesome.com/743e100922.js" crossorigin="anonymous"></script>#}
-  <link href="/abc/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+    {#    <script src="https://kit.fontawesome.com/743e100922.js" crossorigin="anonymous"></script>#}
+    <link href="/static/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
 
 </head>
 {#note style编辑处 #}
 <style>
-.logs_button{
-color: #007bff
-}
-.logs_button:hover{
-    color: #ffffff;
-}
+    .logs_button {
+        color: #007bff
+    }
+
+    .logs_button:hover {
+        color: #ffffff;
+    }
+
     .btn-outline-custom {
         color: #78b7ff;
         border-color: #78b7ff;
@@ -61,8 +63,6 @@ color: #007bff
     {#    height: 70px;#}
 
 
-
-
     .brandfont {
         font-family: 'ZCOOL XiaoWei', serif;
         font-size: 25px !important;
@@ -79,12 +79,87 @@ color: #007bff
 <body class="bg-light" style="overflow-x:hidden ">
 
 {% include "component\header.html" %}
-<h3>seach key word:{{ query }}</h3>
-<h3>This is page infos:{{ page }}</h3>
+{#<h3>seach key word:{{ query }}</h3>#}
 
-{% for item in page %}
-        {{ item.object.trans_title }}
-{% endfor %}
+
+{% if page.object_list %}
+<main role="main" class="container content">
+    <div class="row">
+        <div class="col-md-12 blog-main bg-white border-bottom py-4">
+            <h4>搜索关键词:{{ query }}</h4>
+        </div>
+
+    </div>
+
+    <div class="row">
+        {% for item in page %}
+            <div class="col-md-12 blog-main bg-white border-bottom py-4">
+
+                <h4><a class=" text-decoration-none title"
+                       href="{{ item.object.URL|fetch_unit}}">{{ item.object.trans_title }}</a></h4>
+
+                <div class="rest_infos d-flex mt-4">
+                    <div class="time text-muted">2019-12-31 06:55:52</div>
+
+                    <div class="tags ml-5 " style="font-size: 20px;">
+                        <i class="fas fa-tags mr-2" style="opacity: 0.2"></i>
+                        <span class="badge badge-primary mr-1">CG</span>
+                        <span class="badge badge-primary">C4D</span>
+
+                    </div>
+
+                </div>
+
+
+                {#note logs正文#}
+                <div v-for="item,i in infos">
+
+
+                </div><!-- /.blog-main -->
+
+
+            </div><!-- /.row -->
+        {% endfor %}
+    </div>
+
+    <div class="row bg-white d-block py-4">
+        <div class="row">
+            {% if page.has_previous or page.has_next %}
+                <div class="col-2 mx-auto">
+                    {% if page.has_previous %}
+                        <a href="?q={{ query }}&page={{ page.previous_page_number }}">{% endif %}&laquo; 上一页
+                    {% if page.has_previous %}</a>{% endif %}
+                    |
+                    {% if page.has_next %}<a href="?q={{ query }}&amp;page={{ page.next_page_number }}">{% endif %}下一页
+                    &raquo;
+                    {% if page.has_next %}</a>{% endif %}
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="row mt-4">
+            <div class="mx-auto " style="font-size: 20px;">
+                <p>当前页面:{{ page }}</p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+</main><!-- /.container -->
+{% else %}
+<main role="main" class="container content">
+    <div class="row">
+        <div class="col-md-12 blog-main bg-white border-bottom py-4">
+            <h4>抱歉，并未找到关键词{{ query }}</h4>
+        </div>
+
+    </div>
+</main>
+
+{% endif %}
 {% include "component/footer.html" %}
 
 </body>

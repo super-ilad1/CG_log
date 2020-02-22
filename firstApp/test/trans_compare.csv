@@ -1,0 +1,209 @@
+,post_ID,title,trans_title
+0,2,Paper Flying which sticks to a surface after some time,为何一段时间后粘在表面上的纸模型在飞？
+1,3,"Flicker in render, can't solve.",为何在渲染中有闪烁现象
+2,4,Varanois Fracture - Inside Edge Material Showing Through,瓦拉诺斯骨折-内边缘材料显示通过
+3,5,Bake jiggle to spline (making dynamic barbed wire ring),烘焙抖动到样条（制作动态带刺铁丝圈）
+4,7,Slowing down dynamics based IK animation,减缓基于动力学的IK动画
+5,8,interactive render region Issue,交互式渲染区域问题
+6,9,surface flickering,为何表面会闪烁？
+7,10,How to make Collider Body active on one side of mesh only?,如何使碰撞体仅在网格一侧活动？
+8,11,Folding ladder,折叠梯问题
+9,12,Would like to animate scale - possible?,如何做到动画缩放？
+10,17,Pills in a bottle - how?,如何在瓶子模型里放入药片模型？
+11,25,Compositing liquids with live action - how to achieve realistic refractions?,如何在液体中制造折射现象？
+12,31,After Effects and Cinema 4D lighting?,AE和C4D照明？
+13,36,What happened to the knife tool in R20?,R20的刀具模型怎么会这样子？
+14,38,Parenting structure of Boole with 3 individual objects?,有三个独立对象的布尔的育儿结构？
+15,39,"Bake particles, then move?",烘焙粒子后如何移动？
+16,50,How to get rid of hard shadows in my render?,如何去除渲染中的硬阴影？
+17,58,How can I achieve this?,这种效果怎么实现？
+18,60,Connector object--how to control?,如何控制连接器对象？
+19,61,Cloner Grid array with nothing in center. Is this possible?,如何让中心没有任何内容的Cloner网格数组？
+20,62,fillet caps on all edges of letters created with splines?,如何让用样条曲线创建的字母的所有边上的圆角大写？
+21,66,Is it possible to forbid object from overlapping one another?,如何禁止物体相互重叠？
+22,77,Distorted images ??,如何扭曲图像？?
+23,78,Where is the Shortcuttable file in the C4D R20 Folders?,C4DR20文件夹中的快捷方式文件在哪里？
+24,84,Subdividing the model?,如何细分模型？
+25,95,Lo Res quicker render?,如何低分辨率快速渲染？
+26,96,Is there any way to only render and export a Position Pass? And would that export quicker than a full export?,有没有办法只渲染和导出一个位置通行证？出口会比完全出口快吗？
+27,108,Looping noise on a light's 'visible light'. Possible?,如何让灯光“可见光”上的循环噪声？
+28,109,Adjusting Polygon Pen radius on the fly?,如何动态调整多边形笔半径？
+29,114,Why is my ai vector importing like this?,为什么我的ai向量是这样导入的？
+30,118,How does it work with these Subdivisions?,如何处理这些细分？
+31,140,How to smooth out hard edges to blend two objects into one?,如何平滑硬边以将两个对象混合为一个？
+32,146,Subdividing the model?,如何细分模型？
+33,162,Mograph Selection 'hide selected' resets when re-opening file?,如何在重新打开文件时，记录图选择“隐藏选定对象”重置？
+34,167,UV mapping gone wrong ...?,为何紫外线映射出错。。。？
+35,170,"Surface Constraint/Clamp, with rotation?",如何让表面约束/夹紧，带旋转？
+36,171,Reduce specific part of mesh?,如何减少网格的特定部分？
+37,178,Xpresso does not work with Team Render?,为何Xpresso不适用于团队渲染？
+38,181,Scale keyframes in value (not time)?,如何让按值缩放关键帧（不是时间）？
+39,182,What render setting should I use to achieve a realistic light render result?,我应该使用什么渲染设置来获得真实的灯光渲染结果？
+40,192,Did R19 have volume mesh and I just never noticed it?,是不是R19有容积网，我只是没注意到？
+41,193,How to stick texture on an alembic animation? or create UV map on it?,如何在alembic动画上粘贴纹理？或者在上面创建紫外贴图？
+42,194,Re-render a scene - only pieces though - any way to mask?,重新渲染一个场景-虽然只有片段-有什么方法来掩盖？
+43,214,Multiple parameters in Texture tag Selection field?,纹理标记选择字段中有多个参数？
+44,216,Sketch and toon lines badly drawn/broken?,为何素描和卡通线条画得不好/断了？
+45,230,how best to rig and animate blinking eyes?,如何让最好的绑定眼睛同时让他眨眼？
+46,236,Where are "Make Preview" renders saved?,“生成预览”渲染保存在哪里？
+47,238,Long Render Times - Project Optimisation?,如何让项目优化当渲染时间过长？
+48,242,Why is there a dark area on 2 overlapping spheres in my Octane Live viewer?,为什么在我的辛烷值现场观察中，两个重叠的球体上有一个暗区？
+49,245,Shader effector to keep rotating in the same direction?,着色器是否保持在同一方向旋转？
+50,253,X Y Z handles not visible in object mode... ?,X Y Z句柄在对象模式下不可见。。。?
+51,254,How to create a non-standard platonic?,如何创造一个非标准的柏拉图式？
+52,262,Lo Res quicker render?,如何让低分辨率快速渲染？
+53,263,Is there any way to only render and export a Position Pass? And would that export quicker than a full export?,有没有办法只渲染和导出一个位置通行证？出口会比完全出口快吗？
+54,272,Did R19 have volume mesh and I just never noticed it?,是不是R19有容积网，我只是没注意到？
+55,273,How to stick texture on an alembic animation? or create UV map on it?,如何在alembic动画上粘贴纹理？或者在上面创建紫外贴图？
+56,274,Re-render a scene - only pieces though - any way to mask?,重新渲染一个场景-虽然只有片段-有什么方法来掩盖？
+57,298,Simplifying an object?,如何简化对象？
+58,303,How could I mask/disable or hide polygons based on a region/bounds?,如何基于区域/边界屏蔽/禁用或隐藏多边形？
+59,310,How to prepare a null with constraint expression tag for external compositing?,如何为外部合成准备带约束表达式标记的空值？
+60,311,How to create woven/kernmantle rope?,如何制作编织/核幔绳？
+61,328,Animation rendering stalled ???,动画渲染暂停？??
+62,335,Sound Effector + Xpresso?,声音效果器+Xpresso？
+63,338,How do I apply bend to an object and then edit it while it`s bent?,如何对对象应用“弯曲”，然后在其弯曲时对其进行编辑？
+64,340,How do we put a texture of annual rings on a stump?,我们如何把年轮的纹理放在树桩上？
+65,341,How to kill particles that go outside a sphere object?,如何删除球外的粒子？
+66,346,Is the "tex" folder used to store asset?,“tex”文件夹是否用于存储资产？
+67,368,No key frames in dope sheet?,dope sheet上没有关键帧？
+68,374,Looping animation last to first frame differs in lighting...why?,为什么从最后一帧到第一帧的循环动画在灯光上有所不同？
+69,395,How to get uniform lighting of multiple objects in one scene??,如何在一个场景中获得多个对象的均匀照明？?
+70,406,Multiple parameters in Texture tag Selection field?,纹理标记选择字段中有多个参数？
+71,409,Prorender application error?,Prorender应用程序错误？
+72,411,Mirroring a spline?,如何镜像样条曲线？
+73,419,animation codec with millions plus alpha channel missing?,缺少数百万个alpha通道的动画编解码器？
+74,432,How Do You Align Live Action Video and 3D Objects in C4D?,如何在C4D中对齐实时视频和3D对象？
+75,435,how do I randomly turn on and off  clones?,如何随机打开和关闭克隆？
+76,440,Can you parent a null object to a polygon if the object is not editable?,如果对象不可编辑，是否可以将空对象作为多边形的父对象？
+77,441,C4D:: RealFlow Granular Solver Time Offset?,C4D：：RealFlow粒度解算器时间偏移？
+78,443,Perspective view and front view are mirrored on the X axis?,透视图和正面视图在X轴上被镜像？
+79,445,Spherify - Falloff Tab?,球形-衰减标签？
+80,446,Clones hitting invisible object?,如何让克隆物体击中隐形物体？
+81,450,How to create textures like these ?,如何创建这样的纹理？
+82,451,How To Keyframe Green Checkmark and Red X For Visibility?,如何设置绿色复选标记和红色X的关键帧以提高可见性？
+83,452,How is this phone render this way?,这部手机是怎么呈现的？
+84,456,How can I round corners of plane?,我怎样才能绕过飞机的拐角？
+85,458,Lights Animation?,如何制作灯光动画？
+86,466,"If I stop a render, can i finish it later?",如果我停止渲染，我可以稍后再完成吗？
+87,468,SubD upon Subd for multiple Deformation maps?,多重变形图的一对一？
+88,476,Bones affecting wrong points   -cause?  Cure?,骨头影响了错误的点-原因？治愈？
+89,481,how do I make objects blurry without using depth of field?,如何在不使用景深的情况下使对象模糊？
+90,482,How do I delay a dynamic object?,如何延迟动态对象？
+91,489,How to extrude an extruded object?,如何拉伸拉伸对象？
+92,494,How to extend a basic shape from one end???,如何从一端延伸基本形状？??
+93,497,Area lights won't render along a spline????,区域灯光不会沿样条线渲染？???
+94,500,How do I apply bend to an object and then edit it while it`s bent?,如何对对象应用“弯曲”，然后在其弯曲时对其进行编辑？
+95,502,How do we put a texture of annual rings on a stump?,我们如何把年轮的纹理放在树桩上？
+96,503,How to kill particles that go outside a sphere object?,如何删除球外的粒子？
+97,508,Is the "tex" folder used to store asset?,“tex”文件夹是否用于存储资产？
+98,511,Particle emitter: re-starting renders?,粒子发射器：重新开始渲染？
+99,516,How to make text etched into a tombstone?,如何把文字刻在墓碑模型上？
+100,519,How can I extrude a loft?,如何挤出阁楼？
+101,525,hair direction -  what if I want -Z?,头发方向-如果我想怎么办-Z？
+102,536,Can i use viewport MatCap for Cinema 4D like blender / zbrush?,我能用viewport MatCap做C4D-like搅拌机/zbrush吗？
+103,538,Best workflow for working with a texture video that needs to be constantly updated?,使用需要不断更新的纹理视频的最佳工作流？
+104,540,Delay start time of Matrix Extrude?,基体挤出延迟开始时间？
+105,550,Is it possible to make the display lines of a polygon edge thicker in C4D for better visibility?,是否可以在C4D中使多边形边的显示线更粗以获得更好的可见性？
+106,569,"Effector Fields Question - If cloner has a material, can you use the Color Remap of the Field?",效应场问题-如果克隆器有材质，可以使用场的颜色重映射吗？
+107,572,Naming object buffers?,命名对象缓冲区？
+108,577,Motion vectors not working?,运动矢量不起作用？
+109,579,how to design this?,如何设计这个？
+110,584,Create selection that stays in a 3D world and selects parts of an object within the 3D selection's boundaries?,创建保留在三维世界中并在三维选择的边界内选择对象的一部分的选择？
+111,598,How to stop hair showing in reflective material?,如何防止头发在反光材料中出现？
+112,610,How can I achieve this effect?,我怎样才能达到这个效果？
+113,618,How to bind clothing to character rig?,如何将衣服与角色装备绑定？
+114,630,Align Camera to Polygon?,将相机与多边形对齐？
+115,631,is NV link going to massively benefit gpu rendering or not?,NV-link是否会对gpu渲染带来巨大的好处？
+116,633,some more controls over dynamics?,对动力系统有更多的控制？
+117,649,How in the heck to I get my 60 fps "motion capture" face and linked dog to play nice in a 24 fps project?,怎么才能让我60帧的“动作捕捉”脸和链接狗在24帧的项目中玩得很好呢？
+118,663,"If I stop a render, can i finish it later?",如果我停止渲染，我可以稍后再完成吗？
+119,665,SubD upon Subd for multiple Deformation maps?,多重变形图的一对一？
+120,673,Bones affecting wrong points   -cause?  Cure?,骨头影响了错误的点-原因？治愈？
+121,679,Mograph Selection 'hide selected' resets when re-opening file?,重新打开文件时，记录图选择“隐藏选定对象”重置？
+122,685,Is there a way to manipulate baked dynamics keyframe?,是否有方法操纵烘焙的动力学关键帧？
+123,687,Imported alembic selection/ textures?,如何导入alembic选择/纹理？
+124,691,Spline points copying to a second existing Spline?!?,Spline将复制点指向第二个现有样条？!?
+125,703,Cache/Bake Voronoi Fracture?,缓存/烘焙Voronoi断开？
+126,713,"Effector Fields Question - If cloner has a material, can you use the Color Remap of the Field?",效应场问题-如果克隆器有材质，可以使用场的颜色重映射吗？
+127,716,Naming object buffers?,如何命名对象缓冲区？
+128,721,Motion vectors not working?,为何运动矢量不起作用？
+129,725,how to texture veronoi fracture splices?,如何纹理veronoi骨折拼接？
+130,740,Is it possible to cut out a mesh from a plane texture?,是否可以从平面纹理中剪切网格？
+131,741,FBX importing character model from Mixamo - looks like this. Why?,FBX从Mixamo导入角色模型-如下所示。为什么？
+132,745,Simple Question. How do you turned off these guides?,如何关掉这些指南？
+133,761,Does anybody know how to create this effect? X-particles maybe?,有人知道如何创造这种效果吗？也许是X粒子？
+134,786,How to manipulate objects with RigidBody Tag during simulation?,如何在模拟过程中操作带有刚体标记的对象？
+135,788,Water ripples around a moving/still object?,水在移动/静止物体周围激起涟漪？
+136,804,Any idea how this was made?,知道这是怎么做的吗？
+137,807,Render an object based only on line integrals through it (basically counting up it's volume on a grid)?,只基于线积分渲染对象（基本上是计算网格上的体积）？
+138,812,Is there a max limit to integer condition node inputs?,整数条件节点输入是否有最大限制？
+139,820,What I see in Cinema 4D is different from what I see in Element 3D?,我在C4D中看到的与在元素3D中看到的不同？
+140,822,How do I Animate a Material with a texture file that updates over time?,如何使用随时间更新的纹理文件设置材质的动画？
+141,828,Symmetry side with Knife tool does not work?,对称侧用刀工具不起作用？
+142,831,How can i make a flat object for shadows?,如何为阴影制作平面对象？
+143,832,C4d "Helfp" system: tiny tiny fonts-- enlarging?,C4d“Helfp”系统：微型字体——放大？
+144,836,"Smoke, inside fog?",烟雾，雾里？
+145,847,What I see in Cinema 4D is different from what I see in Element 3D?,我在C4D中看到的与在元素3D中看到的不同？
+146,857,Render is black and white wireframes instead of shades??,渲染是黑白线框而不是阴影？?
+147,865,Cubic Spline Not Distort All Points?,三次样条曲线不扭曲所有点？
+148,869,How to render one scene animation from multiple views/cameras?,如何从多个视图/摄影机渲染一个场景动画？
+149,872,What is the best way to make it look like a bite's been taken out of my mo-text?,什么是最好的方法，使它看起来像一个咬了我的莫文？
+150,881,Advanced Render?,高级渲染？
+151,885,"Simple problem, only moves minimum 10cm on axis :(?",简单的问题，只能在轴线上移动最小10cm：（？）
+152,890,Object wont floating up while the water increasing up?,当水上升时物体不会浮起来？
+153,894,How to approach modelling this?,如何建模？
+154,895,How to add an image/video to a polygon?,如何将图像/视频添加到多边形？
+155,896,Align Camera to Polygon?,将相机与多边形对齐？
+156,903,Cache/Bake Voronoi Fracture?,缓存/烘焙Voronoi断开？
+157,907,How to stop cloner reflections on one another?,如何阻止克隆人互相反省？
+158,911,Picture viewer render different then render within cinema 4d?,图片查看器呈现不同然后在C4D中呈现？
+159,915,assign group of textures to group of objects?,将一组纹理指定给一组对象？
+160,919,How to connect all points of one object to a child object with xpresso?,如何使用xpresso将一个对象的所有点连接到子对象？
+161,922,Polygon reduction - falloff ?,多边形减少-衰减？
+162,923,animation codec with millions plus alpha channel missing?,缺少数百万个alpha通道的动画编解码器？
+163,930,What is the tool or process called when one sets body parts to touch and interact with others but not intersect them?,当一个人将身体部位设置为与他人接触和互动但不与他人相交时，这个工具或过程被称为什么？
+164,933,How to change X-Particles turbulence seed?,如何改变X粒子的湍流种子？
+165,940,Subdivision Surface leaves holes in textures?,细分曲面在纹理中留下洞？
+166,943,"Cloner within cloner, randomize all - how?",克隆内克隆，随机化所有-如何？
+167,948,Sculpt symmetry to separate identical object?,雕刻对称来分离相同的物体？
+168,961,"Boole and texturing issue, any advice?",布勒和纹理问题，有什么建议吗？
+169,964,Sweep Growth % and Align to Spline % don't match ?,扫描增长%和对齐到样条线%不匹配？
+170,997,How to I align a sphere to the entire length of 2 connected splines?,如何将球体与两个连接样条线的整个长度对齐？
+171,1002,Delaying time of Rigid Body?,刚体延迟时间？
+172,1012,Does the Compositing Tag not work on lights?,合成标记在灯光上不起作用吗？
+173,1014,How can I make a square helix spline with rounded corners?,如何制作圆角的方螺旋样条曲线？
+174,1017,Change color of clipping mask area in viewport in R15?,在R15中更改视窗中剪辑遮罩区域的颜色？
+175,1019,Can't interpolate keys without changing the position path?,不能在不更改位置路径的情况下插入关键点？
+176,1023,"How to make one random effector ONLY effect a multishader in my color channel, while another random effector ONLY effects the color shader in my transparency channel?",如何使一个随机效应器仅影响我的颜色通道中的多阴影，而另一个随机效应器仅影响我的透明度通道中的颜色着色器？
+177,1032,Why is Hair so flaky?,为什么头发这么乱？
+178,1040,Can you not copy a hair object and its link object to a new project?,不能将头发对象及其链接对象复制到新项目吗？
+179,1042,How to edit photo and add 3d elements to it?,如何编辑照片并添加三维元素？
+180,1050,Xpresso TP problems with a simple (?) solution?,用一个简单的（？）解决方案？
+181,1056,How to import image sequence to play it in me Cinema 4D scene?,如何导入图像序列在me C4D场景中播放？
+182,1070,matte object "active" in the viewport?,在视窗中蒙版对象“活动”？
+183,1072,How would I get this texture on cinema 4D?,我怎么才能在4D影院得到这种质感呢？
+184,1077,How did they create this material?,他们是怎么创造这种材料的？
+185,1080,How To Move Whole Animation All At Once?,如何同时移动整个动画？
+186,1085,How can I hide edges?,如何隐藏边缘？
+187,1086,Cloth Cached Data to Keyframes???,Cloth缓存数据到关键帧？??
+188,1093,How to recreate the character coming out of the screen effect?,如何重现从屏幕效果出来的角色？
+189,1112,Bending an area object light in Cinema 4D?,弯曲C4D中的区域物体光？
+190,1127,does lathe have to be off the world axis?,车床必须离世界轴线吗？
+191,1131,Exporting Metaball to alembic - phong/normal issue?,将元球导出到alembic-phong/正常问题？
+192,1132,How to simplify a mesh?,如何简化网格？
+193,1137,How to measure area dimensions on 3D object?,如何在三维物体上测量面积尺寸？
+194,1143,How to turn this into a single layer logo?,如何将其转换为单层徽标？
+195,1148,The best way to approach animating this logo?,制作这个标志的最佳方法是什么？
+196,1151,"""Flatten"" procedural materials?",“扁平化”程序材料？
+197,1155,Can I use a cloth modifier in the negative direction?,我可以在负方向使用布料修改器吗？
+198,1157,How to add point in edges and make it soft tangent?,如何在边中添加点并使其软相切？
+199,1170,How To Change the Opacity of An Animated Human Figure?,如何更改动画人物的不透明度？
+200,1174,How To Adjust Facial Expressions in C4D?,如何在C4D中调整面部表情？
+201,1175,What do you think about Architectural visualization(VR) using unreal engine?,你对使用虚幻引擎的架构可视化（VR）有何看法？
+202,1183,"How to smash a cube, then make it into particles in particular?",如何粉碎一个立方体，然后使其成为粒子，特别是？
+203,1184,How to approach modelling this?,如何建模？
+204,1185,How To Select The Best 3D Software?,如何选择最好的三维软件？
+205,1186,Why Do Some TParticles Pass Through a Deflector?,为什么有些粒子会通过偏转器？
+206,1190,Can I achieve this effect without manual animation?,我能在没有手动动画的情况下达到这个效果吗？
+207,1191,When extruding object create caps doesn't  create caps?,当挤压对象时，创建封口为何不起作用？

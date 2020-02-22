@@ -5,7 +5,7 @@ from django.http import HttpResponse
 import sys
 import json
 from django.core.cache import cache
-
+import random
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage, InvalidPage
 import random
 from django.urls import reverse
@@ -23,7 +23,7 @@ from my_mysql_ORM import *
 
 a = doMysql()
 
-
+# request specific post
 class first(View):  # 这里必须要继承View这个类，只有继承了这个url那里的as_view()才会有这个方法
 
     def get(self, request, page=None):
@@ -37,7 +37,7 @@ class first(View):  # 这里必须要继承View这个类，只有继承了这个
 
         # 根据ID来选择指定post
         object = a.DoMysql(
-                "select * from (select Unit,trans_title,author,date,trans_content,author_alias,portrait FROM c4d_url  inner join c4d_content on c4d_content.post_ID=c4d_url.post_ID where c4d_url.trans_title is not null) as  b where Unit=(%s) ",
+                "select * from (select Unit,trans_title,author,date,trans_content,author_alias FROM c4d_url  inner join c4d_content on c4d_content.post_ID=c4d_url.post_ID where c4d_url.trans_title is not null) as  b where Unit=(%s) ",
             selected_unit)
         title = object[0][1]
         print(title)
@@ -64,9 +64,21 @@ class first(View):  # 这里必须要继承View这个类，只有继承了这个
 
         # </editor-fold>
 
-        trans_content = [{'content': item[4], 'author': item[5], 'date': item[3], 'portrait': item[6],
+        trans_content = [{'content': item[4], 'author': item[5], 'date': item[3], 'portrait': "",
                           "upvote": random.randint(0, 5)} for item in
                          object]
+
+        # 赋予随机头像
+        affirm_list = {}
+        for i in trans_content:
+
+            if i['author'] in affirm_list.keys():
+                i['portrait'] = affirm_list[i['author']]
+            else:
+                png = f"/static/portrait/img ({random.randint(1, 878)}).jpg"
+                affirm_list[i['author']] = png
+                i['portrait'] = png
+
 
         intros = trans_content[0]
         print(intros)
@@ -74,16 +86,14 @@ class first(View):  # 这里必须要继承View这个类，只有继承了这个
         trans_content = trans_content[1:]
         print(trans_content)
 
+
         return render(request, 'first.html', context={'title': json.dumps(title), "intros": json.dumps(intros),
                                                       'content': json.dumps(trans_content),
                                                       'recommend_list': recommen_list})
 
-    def post(self, request):
-        page = reverse("ask_page", kwargs={'page': '111'})
-        print(page)
-        return HttpResponse('cbv-post')
 
-# page意味着你的页数，（从url中携带的信息)
+
+# page意味着你的页数，（从url中携带的信息)记载主页
 def logs(request,page=1):
 
     # 如果不是首页
@@ -121,6 +131,13 @@ def logs(request,page=1):
         return render(request,'template_log_pages.html')
 
 
+
+def search_DEBUG(request):
+    if request.method=="GET":
+
+        return render(request,'static/search/search.html',context={'':''})
+
+
 if __name__ == '__main__':
     # 仅以一个对象为试验
     title = a.DoMysql("select trans_title FROM c4d_url where URL = (%s) ",
@@ -134,3 +151,5 @@ if __name__ == '__main__':
     # 第一个dict对象为intro
     trans_content = [{'content': item[0], 'author': item[1], 'date': item[2]} for item in trans_content]
     print(trans_content)
+
+

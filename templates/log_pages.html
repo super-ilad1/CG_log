@@ -1,5 +1,6 @@
 
-{% include "component/head_tag.html" %}
+{#{% include "component/head_tag.html" %}#}
+{% include "component/webpack_head.html" %}
 
 {#note navbar处#}
 {% include "component/header.html" %}
@@ -108,7 +109,7 @@
 {% include "component/footer.html" %}
 
 
-</body>
+
 <script>
     {#note Vue编辑处#}
     var vm1 = new Vue({
@@ -149,31 +150,5 @@
     );
 
 </script>
-<script>
-    {#var vm2=new Vue({#}
-    {#        el:"head",#}
-    {#        data:{#}
-    {#           title: {{ title|safe }},#}
-    {#        },#}
-    {#        methods: {#}
-    {#            function() {#}
-    {#            //    do something#}
-    {#            }#}
-    {#        }#}
-    {#    })#}
-</script>
 
-{#显示拖行进度#}
-<script>
-    $(window).scroll(function () {
-        var s = $(window).scrollTop(),
-            d = $(document).height(),
-            c = $(window).height();
-        scrollPercent = (s / (d - c)) * 100;
-        var position = scrollPercent;
 
-        $(".navbarborder").css('width', position + '%');
-
-    });
-</script>
-</html>
